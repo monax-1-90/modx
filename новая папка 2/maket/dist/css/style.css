@@ -1,0 +1,766 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	min-width: 960px;	
+	padding: 0px;
+	margin: 0px;
+	font-family: Helvetica;
+
+}
+@font-face {
+    font-family: Helvetica; 
+    src: url(stylename.css);
+   }
+
+
+.header{
+	height: 200px;
+}
+
+.col-md-4{
+	margin-top: 95px;
+}
+
+
+.ico-up>a,.ico>a, .col-md-4>a{
+	margin-right: 15%;
+	color: #fff;
+	text-decoration: underline;
+	
+
+}
+.ico>a{
+	padding-left: 5%;
+}
+.ico-up{
+	/*border: 2px solid #fff;*/
+	width: 38%;
+	float: right;
+	margin-right: 15%;
+}
+.ico{
+	border: 2px solid #fff;
+	width: 30%;
+	float: right;
+	margin-right: 30%;
+}
+
+.col-md-4.logo{
+	margin-top: 50px;
+	padding: 0px;
+}
+
+/*__________________________________body_________________________________*/
+
+
+.col-xs-6.col-sm-6.col-md-6.col-lg-6{
+	padding: 0px;
+}
+
+
+
+/*___________________________Sroll прилипили блок между двух картинок_____________________*/
+.row-1{
+	position: relative;
+	width: 100%;
+	margin: 0;
+}
+.center:after
+{
+content: '';
+display: block;
+clear: both;
+}
+.center{
+
+position: relative;
+right: 50%;
+float: right;
+}
+.center-scroll{
+	position: relative;
+z-index: 1;
+right: -50%;
+margin-top: -77px;
+}
+
+/*___________________________________________КОНЕЦ____________________________________*/
+
+/*________________________________АНИМАЦИЯ ПРИ НАВЕДЕНИИ WOMEN, MEN_____________________*/
+
+
+.carousel.carousel-fade .item {
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	opacity:0;
+}
+
+.carousel.carousel-fade .active.item {
+	opacity:1;
+}
+
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+	left: 0;
+	z-index: 1;
+}
+
+.carousel.carousel-fade .carousel-control {
+	z-index: 3;
+}
+
+
+
+
+.right-slid{	
+	position: relative;
+	left: 50%;
+	margin-top: -42%;
+}
+.women{
+	-webkit-transition-duration: 0.5s;
+}
+.women:hover{
+/*-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;*/
+	cursor:pointer;
+}
+
+.women .mask{
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	height: 100%; 
+	opacity:0.6;
+	-webkit-transition-duration: 0s;
+}
+
+.women-1:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+}
+
+/*__________________________________________________КОНЕЦ_______________________________________*/
+
+
+/*____________________________________левый и правый флажки_______________________________*/
+.center-left{
+position: absolute;
+left: 50%;
+top: 40%;
+}
+.center-left-1>img{
+width: 35%;
+height: 35%;
+}
+
+.center-right{
+position: absolute;
+left: 45%;
+top: 40%;
+}
+.center-right-1>img{
+width: 35%;
+height: 35%;
+}
+
+/*__________________________________________КОНЕЦ__________________________________________*/
+
+
+/*______________________________________Надпись между картинками CASUAL________________________*/
+
+.center-casual{
+position: absolute;
+left: 30%;
+top: 20%;
+}
+/*.color{
+	 background: url(../../img/color.png);
+  background-size: 7%; 
+  -webkit-background-clip: text;  
+  font-size: 95px;
+  text-align: center;
+ color: transparent;
+}*/
+
+.cas{
+	background: url(../../img/color.png);
+    background-repeat:repeat-x;
+    text-align:center;
+    color:transparent;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin:0;
+	font-size:6vw;
+	background-position: 870px 0;	
+
+} 
+
+/*__________________________________________КОНЕЦ_______________________________________________*/
+
+
+
+/*____________________________________________ССЫЛКИ__________________________________________*/
+
+..wom-link{
+
+position: relative;
+right: -50%;
+
+}
+.wom-link>p{
+		border:1px solid #fff;	
+	width: 40%;
+	float:right;
+	position: absolute;
+	left: 45%;
+	bottom: 20%;
+	color: #fff;
+	padding: 0px 0% 0px 4%;
+	text-decoration: none;
+	font-size:3.2vh;
+	
+}
+
+
+
+..men-link{
+
+position: relative;
+right: -50%;
+
+}
+.men-link>p{
+		border:1px solid #fff;	
+	width: 40%;
+	float:right;
+	position: absolute;
+	left: 15%;
+	bottom: 20%;
+	color: #fff;
+	padding: 0px 0% 0px 4%;
+	text-decoration: none;
+	font-size:3.3vh;
+	
+}
+
+
+/*__________________________________________________КОНЕЦ_____________________________________*/
+
+/*________________________________________ABOUT CASUAL___________________________________________*/
+
+.cas-1{
+	margin-left: 15%;
+}
+.about-1{	
+	color: #eb1d41;
+	font:bold serif;
+font-size:4vh;
+}
+hr{
+	width: 25%;
+	margin-left: 5px;
+	color: #969696;
+	background-color: #969696;
+	border:none;
+	height: 2px;
+}
+.about-2{
+	color: #969696;
+	font-size:1.7vh;
+
+}
+
+/*_________________________________________КОНЕЦ)_______________________________________*/
+
+
+/*___________________________________________ЧУВАК СО СКИДКОЙ 30%___________________________*/
+.sale-1{	
+	padding: 0;
+	margin-left: 2%;
+	z-index: 3;
+}
+
+
+.skidka{
+	color: #fff;
+	font-size: 3.5vh;	
+	padding-left: 10%; 
+	position: absolute;
+	top:15%;
+	left: 0%;
+	
+
+}
+.skidka span{
+	padding-left: 10%;
+	font-size: 6vh;
+}
+.skidka>.btn{
+	margin-left: -10%;
+	margin-top: -7%;
+}
+.btn-1{
+	color: #fff;
+	background-color: #111;
+	border: none;
+}
+
+/*__________________________________________КОНЕЦ____________________________________________*/
+
+/*_____________________________________НАДПИСТ LONDIUM____________________________________*/
+.londium{
+	position: absolute;
+	left: 3%;
+	top: 45%;
+
+}
+
+
+/*_________________________________________КОНЕЦ________________________________________________*/
+
+
+/*__________________________________________МАТЬ С ЮБКОЙ________________________________________________<d*/
+.row-2{
+	position: relative;
+	margin: 0;
+}
+
+.row-2:after{
+content: '';
+display: block;
+height: 200px;
+clear: both
+}
+
+.model-1{
+	
+	padding: 0;
+	position: absolute;
+	left: 13%;
+	top: 42%;
+}
+.model-1:after{
+content: '';
+display: block;
+clear: both;
+}
+
+.ubka{
+
+position: absolute;
+left:21%;
+top:102%;	
+color: #fff;
+font-size: 3vh;
+}
+.ubka span{
+font-size: 4vh;
+}
+.btn-2{
+	color: #fff;
+	background-color: #e40c2f;
+	border: none;
+
+}
+
+
+
+/*_______________________________________КОНЕЦ___________________________________________________________*/
+
+
+
+/*_________________________________________ПАЦАНЧИК С ЧЕЛКОЙ______________________________________*/
+
+.model-2{
+	padding: 0;
+	position: absolute;
+	z-index: 1;
+	left: 53%;
+	top: 60%;
+}
+
+.reklama-2{
+	position: absolute;
+	top: 60%;
+	left: 7%;
+	color: #fff;
+	font-size: 4vh;
+}
+.btn-3{
+	background-color: #e40c2f;
+	color: #fff;
+	border: none;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+/*____________________________________________КОНЕЦ____________________________________________________*/
+
+/*________________________________________________MENU________________________________________________*/
+
+/* .btn-4:after
+{
+content: '';
+display: block;
+clear: both;
+
+}
+.center-2{
+
+position: relative;
+right: 50%;
+float: right;
+}
+.magaz{
+position: relative;
+right: -50%;
+color: #fff;
+font-size: 4vh;
+}
+.btn-4{
+	margin-top: 400%;
+	background-color: #111;
+	padding: 0%;
+	border: none;
+	color: #fff;
+}
+.ico-3{
+	
+}
+
+.magaz:hover::after{
+
+	content: attr(data-title); Выводим текст
+position: absolute; Абсолютное позиционирование
+top:100px; left: 10px; right: 10px; bottom: 35px; Положение подсказки
+    z-index: 55; Отображаем подсказку поверх других элементов
+    background: rgba(0,42,167,0.6); Полупрозрачный цвет фона   
+     color: #fff; Цвет текста
+    text-align: center; Выравнивание текста по центру
+   font-family: Arial, sans-serif; Гарнитура шрифта
+font-size: 11px;  Размер текста подсказки 
+    padding: 5px 10px; Поля    border: 1px solid #fff;
+
+
+} */
+
+
+
+/*__________________________________________________КОНЕЦ_____________________________________________*/
+
+
+
+/*_______________________________________footer______________________________*/
+
+
+.link-left-2, .link-right-2, .link-foot, .ico-social{
+	/*border: 2px solid #fff;*/
+	margin: 5% 0  5% 0;
+	width: 30%;
+}
+
+.link-left-2>a, .link-right-2>a{
+	/*border: 2px solid #fff;*/
+	margin: 0% 0% 0% 15%;
+	padding: 0 0% 0 0%;
+	color: #fff;
+	text-decoration: underline;
+
+}
+.link-right-2{
+	margin-left: -8%;
+}
+
+
+.ico-1>a{
+	padding-left: 5%;
+	color: #fff;
+	text-decoration: underline;
+
+}
+.ico-1{
+	/*border: 2px solid #fff;*/
+	width: 38%;
+	float: right;
+	margin-right: 8%;	
+}
+
+.link-foot{
+	/*border: 2px solid #fff;*/
+	width: 17%;
+	margin-left: 10%;
+}
+.ico-social{
+	width: 13%;
+}
+.ico-social-1{
+	display: inline-block;
+	background: url(../../img/ico3.png) no-repeat;
+	width: 25px;
+	height: 22px;
+}
+
+.fac{
+	margin-left: 25%;
+	background-position: 0px 0px;
+}
+.vk{
+	margin-left: -7%;
+	background-position: -52px 0px;
+}
+.tw{
+	margin-left: -5%;
+	background-position: -100px 0px;
+}
+
+/*_________________________________________END___________________________________*/
+
+
+/*__________________________________________ПАРАЛАКС______________________________*/
+
+
+#parallax-bg3 {
+	z-index: -1;
+	position: fixed;
+	bottom: -10%;
+	}
+
+/* background (clouds) */
+#parallax-bg1 {
+	z-index: -2;
+	position: fixed;
+	}
+	#bg1-1 {
+		position: absolute;
+		left: -10%;
+		}
+
+
+/*_________________________________________END___________________________________*/
+.row-5{
+	margin-top: 20%;
+	height: 100%;
+	min-height: 400px;
+}
+.box-7{
+	/*border:2px solid #fff;*/
+	width: 100%;
+	margin-top: 10%;
+	
+}
+
+.btn-4:after
+{
+content: '';
+display: block;
+clear: both;
+
+}
+.center-2{
+
+
+}
+.magaz{
+/*border:2px solid #fff;*/
+height: 120px;
+width: 70%;
+position: relative;
+left: 15%;
+
+}
+.ico-3{
+	float: left;
+	margin-right: 5%; 
+	margin-left: 20%;
+	padding-top: 2.5%;
+}
+#back-top p{
+width: 30%;
+font-size: 1.2vw;
+
+}
+#back-top > img{
+position: relative;
+left: 25%;
+margin-top: -15%; 	
+}
+.btn-default{
+	background: none !important; 	
+	border: none !important;
+	color: #fff !important;
+	font-size: 1vw !important;
+	
+}
+.button{
+	border: 2px solid #fff;
+	width: 20%;
+	margin-left: 40%;
+/*	position: relative;
+	left: 35%;*/
+	padding: 1% 0% 1% 0%;
+}
+
+
+/* #back-top {
+display: none;
+position: fixed;
+bottom: 25%;
+right: 65%;
+z-index: 1002;font-size: 1.3vh;
+text-align: right;
+border: 2px solid #fff;
+width: 20%;
+}
+
+.black-img{
+	float: right;
+	margin-top: -25%;
+	margin-right: -65%;
+	opacity: .2;
+}
+.button{
+	border: 2px solid #fff;
+	width: 35%;
+	margin-left: 31%;
+position: relative;
+	left: 35%;
+	padding: 1% 1% 1% 1%;
+}
+ */
+/*_____________________________ЭФЕКТ ЗАГРУЗКИ СТР_______________________________________*/
+    #before-load {
+      position: fixed; 
+      left: 0; top: 0; right: 0; bottom: 0; 
+      background: #111; 
+      z-index: 1001; /*располагаем его над всеми элементами на странице*/
+      color: #fff;
+    }
+
+#before-load p{
+	position: absolute;
+	top: 35%;
+	left: 35%;
+
+}
+.load-1{
+
+	font-size: 10vh;
+}
+.load-2{
+	position: absolute;
+	top: 100%;
+	left: 40%;
+	padding-top: 20%;
+	font-size: 3vh;
+}
+
+/*
+.befor-load-1 { 
+
+width:100%; height:100%;
+  background:#ccc;
+  animation:flipAround 2s infinite;
+  transform-origin:left;
+}
+@keyframes flipAround {
+	 100% { transform-origin:left; animation-mode:forwards; transform:rotateY(-180deg); }
+ 
+*/
+
+
+.befor-load-1:before {
+  content: attr(data-content);
+  display: inline-block;  
+  position: absolute;  
+  top: 0%;
+  left: 0%;
+  width: 20%;
+  height: 100%;
+  padding: 0;
+  /*margin-top: 35%;*/
+  opacity: 0.7;
+  z-index: 9999999;
+  background: #fff;
+  /*background-size: 100%;*/
+  animation: timing 2.3s forwards;
+  animation-direction: alternate-normal;
+  
+  }
+
+@keyframes timing {
+  
+
+100%{
+   
+  	margin-left: 100%;
+  	
+ }
+/* .befor-load-1:before {
+  content: attr(data-content);
+  display: inline-block;  
+  position: absolute;  
+  top: 0%;
+  left: 30%;
+  width: 30%;
+  height: 100%;
+  margin-top: 35%;
+  background: #111;
+  animation: timingg 3.3s forwards;
+  animation-direction: alternate-normal;
+  
+  }
+
+
+
+
+
+@keyframes timingg {
+  
+
+100%{
+   
+  	margin-left: 100%;
+  	
+ }
+ */
+
+
+
+
+
+
+
+
+/*_____________________________________________________КОНЕЦ_______________________________________*/
+
+
+/* 
+
+____________________________________________________FORMA_____________________________________________
+
+.container-back{
+	background-image: url(../../img/form/fon.png);
+	width: 100%;
+	height:100%;
+}
+.col-md-3{
+	margin: 170px;
+	padding: 0px;
+}
+_____________________________________________________END_________________________________________________ */

@@ -1,0 +1,115 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '05c114ab7adec53f7a50f94ba19dd7f3' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":13,"source":1,"property_preprocess":0,"name":"sms_body","description":"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0441\\u043c\\u0441 \\u0441\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u044f \\u0434\\u043b\\u044f \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441\\u0430 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0430 \\"\\u041e\\u0442\\u043c\\u0435\\u043d\\u0435\\u043d\\"","editor_type":0,"category":5,"cache_type":0,"snippet":"\\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u2116[[+orderID]] \\u043f\\u0435\\u0440\\u0435\\u0432\\u0435\\u0434\\u0435\\u043d \\u0432 \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441 \\"[[+status_name]]\\".","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"\\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u2116[[+orderID]] \\u043f\\u0435\\u0440\\u0435\\u0432\\u0435\\u0434\\u0435\\u043d \\u0432 \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441 \\"[[+status_name]]\\"."}',
+        'guid' => '6a2c1509703333ecaaa1f24cdecf3ee0',
+        'native_key' => 13,
+        'signature' => '2058e7490bf33a8ca9244e31739a733a',
+      ),
+      'c441c10e40b64528ccd41174208d096e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":14,"source":1,"property_preprocess":0,"name":"sms_done","description":"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0441\\u043c\\u0441 \\u0441\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u044f \\u0434\\u043b\\u044f \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441\\u0430 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0430 \\"\\u0412\\u044b\\u043f\\u043e\\u043b\\u043d\\u0435\\u043d\\"","editor_type":0,"category":5,"cache_type":0,"snippet":"\\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u2116[[+orderID]] \\u0432\\u044b\\u043f\\u043e\\u043b\\u043d\\u0435\\u043d. \\u0421\\u043f\\u0430\\u0441\\u0438\\u0431\\u043e, \\u0447\\u0442\\u043e \\u0432\\u043e\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u043b\\u0438\\u0441\\u044c \\u0443\\u0441\\u043b\\u0443\\u0433\\u0430\\u043c\\u0438 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d\\u0430 ???. \\u0416\\u0434\\u0435\\u043c \\u0412\\u0430\\u0441 \\u0441\\u043d\\u043e\\u0432\\u0430!","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"\\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u2116[[+orderID]] \\u0432\\u044b\\u043f\\u043e\\u043b\\u043d\\u0435\\u043d. \\u0421\\u043f\\u0430\\u0441\\u0438\\u0431\\u043e, \\u0447\\u0442\\u043e \\u0432\\u043e\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u043b\\u0438\\u0441\\u044c \\u0443\\u0441\\u043b\\u0443\\u0433\\u0430\\u043c\\u0438 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d\\u0430 ???. \\u0416\\u0434\\u0435\\u043c \\u0412\\u0430\\u0441 \\u0441\\u043d\\u043e\\u0432\\u0430!"}',
+        'guid' => '2f055c566f0b9d8382109052c94cdfab',
+        'native_key' => 14,
+        'signature' => 'c9820069f6bed0774c065abd6a966e08',
+      ),
+      'c4a5f3aa119be28e2ff2b59fa0708589' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":15,"source":1,"property_preprocess":0,"name":"sms_new","description":"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0441\\u043c\\u0441 \\u0441\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u044f \\u0434\\u043b\\u044f \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441\\u0430 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0430 \\"\\u041d\\u043e\\u0432\\u044b\\u0439\\"","editor_type":0,"category":5,"cache_type":0,"snippet":"\\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u2116[[+orderID]], \\u043d\\u0430\\u0448\\u0438 \\u043c\\u0435\\u043d\\u0435\\u0434\\u0436\\u0435\\u0440\\u044b \\u0441\\u0432\\u044f\\u0436\\u0443\\u0442\\u0441\\u044f \\u0441 \\u0412\\u0430\\u043c\\u0438 \\u0432 \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0435\\u0435 \\u0432\\u0440\\u0435\\u043c\\u044f.","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"\\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u2116[[+orderID]], \\u043d\\u0430\\u0448\\u0438 \\u043c\\u0435\\u043d\\u0435\\u0434\\u0436\\u0435\\u0440\\u044b \\u0441\\u0432\\u044f\\u0436\\u0443\\u0442\\u0441\\u044f \\u0441 \\u0412\\u0430\\u043c\\u0438 \\u0432 \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0435\\u0435 \\u0432\\u0440\\u0435\\u043c\\u044f."}',
+        'guid' => 'fd89108862f6e9f01015b10835b2952a',
+        'native_key' => 15,
+        'signature' => 'a151a22c30336f12bf6f6fed6ac6d792',
+      ),
+      '77c50595dbe864448997582dbfbf65bb' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":16,"source":1,"property_preprocess":0,"name":"sms_pay_done","description":"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0441\\u043c\\u0441 \\u0441\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u044f \\u0434\\u043b\\u044f \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441\\u0430 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0430 \\"\\u041e\\u043f\\u043b\\u0430\\u0442\\u0430 \\u043f\\u043e\\u043b\\u0443\\u0447\\u0435\\u043d\\u0430\\"","editor_type":0,"category":5,"cache_type":0,"snippet":"\\u0421\\u043f\\u0430\\u0441\\u0438\\u0431\\u043e \\u0437\\u0430 \\u043e\\u043f\\u043b\\u0430\\u0442\\u0443 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0430 \\u2116[[+orderID]] \\u0432 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d\\u0435 ???. \\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u0431\\u0443\\u0434\\u0435\\u0442 \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043b\\u0435\\u043d \\u0432 \\u0442\\u0435\\u0447\\u0435\\u043d\\u0438\\u0435 2-4 \\u0440\\u0430\\u0431\\u043e\\u0447\\u0438\\u0445 \\u0434\\u043d\\u0435\\u0439.","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"\\u0421\\u043f\\u0430\\u0441\\u0438\\u0431\\u043e \\u0437\\u0430 \\u043e\\u043f\\u043b\\u0430\\u0442\\u0443 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0430 \\u2116[[+orderID]] \\u0432 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d\\u0435 ???. \\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u0431\\u0443\\u0434\\u0435\\u0442 \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043b\\u0435\\u043d \\u0432 \\u0442\\u0435\\u0447\\u0435\\u043d\\u0438\\u0435 2-4 \\u0440\\u0430\\u0431\\u043e\\u0447\\u0438\\u0445 \\u0434\\u043d\\u0435\\u0439."}',
+        'guid' => 'bf1ac90cdad944bfba61e59196cbab00',
+        'native_key' => 16,
+        'signature' => '4b4fef90ebb50010a44b1cb7ead73b72',
+      ),
+      '0c89553f55f64c7fe31753f6dfad72bf' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":17,"source":1,"property_preprocess":0,"name":"sms_pay_ok","description":"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0441\\u043c\\u0441 \\u0441\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u044f \\u0434\\u043b\\u044f \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441\\u0430 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0430 \\"\\u041f\\u0440\\u0438\\u043d\\u044f\\u0442 \\u043a \\u043e\\u043f\\u043b\\u0430\\u0442\\u0435\\"","editor_type":0,"category":5,"cache_type":0,"snippet":"\\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u2116[[+orderID]] \\u043f\\u0435\\u0440\\u0435\\u0432\\u0435\\u0434\\u0435\\u043d \\u0432 \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441 \\"[[+status_name]]\\". \\u0418\\u043d\\u0441\\u0442\\u0440\\u0443\\u043a\\u0446\\u0438\\u0438 \\u043f\\u043e \\u043e\\u043f\\u043b\\u0430\\u0442\\u0435 \\u0432\\u044b\\u0441\\u043b\\u0430\\u043d\\u044b \\u043d\\u0430 \\u0412\\u0430\\u0448 \\u0430\\u0434\\u0440\\u0435\\u0441 \\u044d\\u043b\\u0435\\u043a\\u0442\\u0440\\u043e\\u043d\\u043d\\u043e\\u0439 \\u043f\\u043e\\u0447\\u0442\\u044b.","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"\\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u2116[[+orderID]] \\u043f\\u0435\\u0440\\u0435\\u0432\\u0435\\u0434\\u0435\\u043d \\u0432 \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441 \\"[[+status_name]]\\". \\u0418\\u043d\\u0441\\u0442\\u0440\\u0443\\u043a\\u0446\\u0438\\u0438 \\u043f\\u043e \\u043e\\u043f\\u043b\\u0430\\u0442\\u0435 \\u0432\\u044b\\u0441\\u043b\\u0430\\u043d\\u044b \\u043d\\u0430 \\u0412\\u0430\\u0448 \\u0430\\u0434\\u0440\\u0435\\u0441 \\u044d\\u043b\\u0435\\u043a\\u0442\\u0440\\u043e\\u043d\\u043d\\u043e\\u0439 \\u043f\\u043e\\u0447\\u0442\\u044b."}',
+        'guid' => '76b849634f784854ca2423593c120dee',
+        'native_key' => 17,
+        'signature' => '4e23d2f762f62b1e2923f336a5970fe0',
+      ),
+      'ef49e2771d8eb252c38ae82ba250fa3d' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":18,"source":1,"property_preprocess":0,"name":"sms_sent","description":"\\u0428\\u0430\\u0431\\u043b\\u043e\\u043d \\u0441\\u043c\\u0441 \\u0441\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u044f \\u0434\\u043b\\u044f \\u0441\\u0442\\u0430\\u0442\\u0443\\u0441\\u0430 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0430 \\"\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043b\\u0435\\u043d\\"","editor_type":0,"category":5,"cache_type":0,"snippet":"\\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u2116[[+orderID]] \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043b\\u0435\\u043d \\u043d\\u0430 \\u0443\\u043a\\u0430\\u0437\\u0430\\u043d\\u043d\\u044b\\u0439 \\u043f\\u0440\\u0438 \\u043e\\u0444\\u043e\\u0440\\u043c\\u043b\\u0435\\u043d\\u0438\\u0438 \\u0430\\u0434\\u0440\\u0435\\u0441. \\u0422\\u0440\\u0435\\u043a\\u0438\\u043d\\u0433 \\u043d\\u043e\\u043c\\u0435\\u0440: [[+tracking_num]]. \\u0414\\u043e\\u043f\\u043e\\u043b\\u043d\\u0438\\u0442\\u0435\\u043b\\u044c\\u043d\\u0430\\u044f \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u044f \\u0432\\u044b\\u0441\\u043b\\u0430\\u043d\\u0430 \\u043d\\u0430 \\u0412\\u0430\\u0448 E-mail.","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"\\u0412\\u0430\\u0448 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u2116[[+orderID]] \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043b\\u0435\\u043d \\u043d\\u0430 \\u0443\\u043a\\u0430\\u0437\\u0430\\u043d\\u043d\\u044b\\u0439 \\u043f\\u0440\\u0438 \\u043e\\u0444\\u043e\\u0440\\u043c\\u043b\\u0435\\u043d\\u0438\\u0438 \\u0430\\u0434\\u0440\\u0435\\u0441. \\u0422\\u0440\\u0435\\u043a\\u0438\\u043d\\u0433 \\u043d\\u043e\\u043c\\u0435\\u0440: [[+tracking_num]]. \\u0414\\u043e\\u043f\\u043e\\u043b\\u043d\\u0438\\u0442\\u0435\\u043b\\u044c\\u043d\\u0430\\u044f \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u044f \\u0432\\u044b\\u0441\\u043b\\u0430\\u043d\\u0430 \\u043d\\u0430 \\u0412\\u0430\\u0448 E-mail."}',
+        'guid' => 'a26d570e44b361fb8b80565e37172296',
+        'native_key' => 18,
+        'signature' => '50622365e1a2c09b2ebab56796ce40cb',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'shksendsms',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3d210bf7042b0c61a7fc8dc4e82b9885',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '097ea4e9d8648271fc55830ecc2cd67b',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"SHKsendSMS"}',
+);
